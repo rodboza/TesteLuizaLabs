@@ -1,20 +1,20 @@
 Desafio Luiza Labs!
 
-##Pre requisitos
+###Pre requisitos
 ```
 > Sdk=Microsoft.NET.Sdk.Web
 > Sdk=Microsoft.NET.Sdk
 > TargetFramework netcoreapp3.1
 ```
 
-##Passos
+###Passos
 
 1. Fazer o git clone de https://github.com/rodboza/TesteLuizaLabs.git
 2. Na raiz do repositório entrar com os comandos abaixo
    - .\TesteLuizaLabs> dotnet restore
    - .\TesteLuizaLabs> dotnet build
    - .\TesteLuizaLabs> dotnet run --project .\src\Favoritos.API\Favoritos.API.csproj --configuration Release
-3 - Será exibido na tela 
+3. Será exibido na tela 
 ```
         info: Microsoft.Hosting.Lifetime[0]
                   Now listening on: https://localhost:5001
