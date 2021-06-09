@@ -7,11 +7,11 @@ Desafio Luiza Labs!
 
 ##Passos
 
-1. - Fazer o git clone de https://github.com/rodboza/TesteLuizaLabs.git
-2. - Na raiz do repositório entrar com os comandos abaixo
-	2.1. - .\TesteLuizaLabs> dotnet restore
-	2.2. - .\TesteLuizaLabs> dotnet build
-	2.3. - .\TesteLuizaLabs> dotnet run --project .\src\Favoritos.API\Favoritos.API.csproj --configuration Release
+1. Fazer o git clone de https://github.com/rodboza/TesteLuizaLabs.git
+2. Na raiz do repositório entrar com os comandos abaixo
+   2.1. - .\TesteLuizaLabs> dotnet restore
+   2.2. - .\TesteLuizaLabs> dotnet build
+   2.3. - .\TesteLuizaLabs> dotnet run --project .\src\Favoritos.API\Favoritos.API.csproj --configuration Release
 3 - Será exibido na tela 
 	info: Microsoft.Hosting.Lifetime[0]
 		  Now listening on: https://localhost:5001
