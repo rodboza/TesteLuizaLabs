@@ -10,7 +10,6 @@ namespace Favoritos.Test.Domain.Handlers
 {
     public class LoginHandlerUnitTest
     {
-
         readonly LoginHandler handler;
         readonly ILoginRepository repository;
 

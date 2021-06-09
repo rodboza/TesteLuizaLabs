@@ -32,6 +32,9 @@ namespace Favoritos.API
             services.AddControllers();
             services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
 
+            services.AddSwaggerDocument();
+
+
             services.AddTransient<IClienteRepository, ClienteRepository>();
             services.AddTransient<IFavoritoRepository, FavoritoRepository>();
             services.AddTransient<ILoginRepository, LoginRepository>();
@@ -101,6 +104,9 @@ namespace Favoritos.API
             app.UseAuthentication();
             app.UseAuthorization();
 
+
+            app.UseOpenApi();
+            app.UseSwaggerUi3();
 
             app.UseEndpoints(endpoints =>
             {

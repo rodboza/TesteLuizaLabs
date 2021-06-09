@@ -47,3 +47,4 @@ Desafio Luiza Labs!
    - Inclusão - POST api/v1/cliente/{ID_CLIENTE}/Favorito com body {"idProduto":"571fa8cc-2ee7-5ab4-b388-06d55fd8ab2f"}
    - Remover - DELETE api/v1/cliente/{ID_CLIENTE}/Favorito/{ID_PRODUTO}
    - Ler - GET api/v1/cliente/{ID_CLIENTE}/Favorito
+9. O Swagger da API pode ser encontrado em https://localhost:5001/swagger
