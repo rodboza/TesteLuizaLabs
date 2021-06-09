@@ -1,9 +1,11 @@
 Desafio Luiza Labs!
 
 ##Pre requisitos
+```
 > Sdk=Microsoft.NET.Sdk.Web
 > Sdk=Microsoft.NET.Sdk
 > TargetFramework netcoreapp3.1
+```
 
 ##Passos
 
